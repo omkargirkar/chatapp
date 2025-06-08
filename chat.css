@@ -1,0 +1,52 @@
+body {
+  font-family: Arial, sans-serif;
+  padding: 0;
+  margin: 0;
+  background-color: #f9f9f9;
+}
+
+h1 {
+  text-align: center;
+  background-color: black;
+  color: white;
+  padding: 10px 0;
+  margin: 0;
+}
+
+#messages {
+  padding: 20px;
+}
+
+.message {
+  background-color: #d3d3d3;
+  margin: 10px 0;
+  padding: 10px;
+  border-radius: 5px;
+  width: fit-content;
+  max-width: 80%;
+}
+
+.message.you {
+  background-color: #cce5ff;
+  margin-left: auto;
+}
+
+#messageForm {
+  display: flex;
+  padding: 10px;
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  background-color: white;
+}
+
+#messageInput {
+  flex: 1;
+  padding: 10px;
+  font-size: 16px;
+}
+
+#sendButton {
+  padding: 10px 20px;
+  font-size: 16px;
+}
